@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-function Recepies() {
+function Recipes() {
   return (
     <motion.div
       className="flex flex-col items-center justify-center min-h-screen bg-gray-100 space-y-4"
@@ -13,4 +13,4 @@ function Recepies() {
   );
 }
 
-export default Recepies;
+export default Recipes;

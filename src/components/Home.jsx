@@ -8,13 +8,16 @@ function Home() {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <h1 className="text-5xl font-extrabold text-red-700">
+      <h1 className="text-5xl font-extrabold text-primary-dark">
         Hei Fra Ernæringskokken!!
       </h1>
-      <h2 className="text-4xl font-bold text-green-600">
+      <h2 className="text-4xl font-bold text-secondary-dark">
         Det ser ut til å fungere
       </h2>
-      <p className="text-xl text-gray-800">Hei igjen fra Ernæringskokken!!</p>
+      <p className="text-xl text-gray-700">Jeg gleder meg til fredag!</p>
+      <p className="text-xl text-gray-700">
+        Jeg heter Selma, og er 7 år. Jeg går på Prinsdal skole.
+      </p>
     </motion.div>
   );
 }
